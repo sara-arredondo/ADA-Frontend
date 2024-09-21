@@ -1,0 +1,42 @@
+.estiloTitulo {
+    font-family:  "Abril Fatface", serif;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.estiloSubtitulo {
+    font-family: "Montserrat", system-ui;
+    font-size: 20px;
+    font-weight: 200;
+    color: #4f4f4a;
+}
+
+.estiloParrafoNormal {
+    font-family: "Montserrat", system-ui;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.estiloParrafoItalica {
+    font-family: "Montserrat", system-ui;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 200;    
+}
+
+.estiloParrafoBold {
+    font-family: "Montserrat", system-ui;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 400;   
+}
+
+.estiloVinculo {
+    font-family: "Montserrat", system-ui;
+    font-size: 20px;
+    font-weight: 200;
+    text-decoration: none;
+    color: #3300cc;
+}

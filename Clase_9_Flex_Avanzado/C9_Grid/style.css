@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+.contenedor {
+   display: grid;
+   border: 1px solid #e100ff;
+   grid-template-columns: 400px 400px;
+   grid-template-rows: 400px 400px;    
+}
+
+.contenedor #primero {
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.contenedor #segundo {
+    background-color: #e100ff;
+    height: 200px;
+    width: 200px;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.contenedor #tercero {
+    background-color: #ff8c00;
+    height: 200px;
+    width: 200px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#cuarto {
+    background-color: #62ff00;
+    height: 200px;
+    width: 200px;
+    grid-column: 2;
+    grid-row: 2;
+}
+

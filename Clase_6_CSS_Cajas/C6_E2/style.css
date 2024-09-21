@@ -1,0 +1,43 @@
+body {
+    background-color: #a5d6a7;
+}
+
+body main div {
+    width: 350px;
+    height: 350px;
+    background-color: #f7f7fc;
+    border-radius: 10px;
+    margin: 200px auto;
+    padding-top: 40px;
+    box-shadow:  2px 2px 50px -10px #444644;
+}
+
+body main div h1 {
+    font-family: "Montserrat", system-ui;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+body main div p {
+    font-family: "Montserrat", system-ui;
+    width: 240px;
+    font-size: 16px;
+    font-weight: 200;
+    padding-bottom: 35px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body main div .estilo-boton {
+    font-family: "Montserrat", system-ui;
+    font-size: 14px;
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+    height: 30px;
+    border: solid 1px #a5d6a7;
+    border-radius: 20px;
+    background-color: white;
+}

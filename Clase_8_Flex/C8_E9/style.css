@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: "Montserrat", system-ui;
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+}
+
+h3 {
+    font-family: "Montserrat", system-ui;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+h4 {
+    font-family: "Montserrat", system-ui;
+    font-size: 14px;
+    font-weight: 400;
+    color: #eebe44;
+}
+
+p {
+    font-family: "Montserrat", system-ui;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+
+body #container {
+    width: 1200px;
+    height: 600px;  
+    padding: 80px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 28px 14px rgba(235,235,235,1);
+}
+
+body #container #container-title {
+    width: 60%;
+    height: 20%;
+}
+
+body #container #container-cards {
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+}
+
+body #container #container-cards #container-cards-group {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+body #container #container-cards #container-cards-group .card-info {
+    width: 40%;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+img {
+    width: 50px;
+    padding-bottom: 20px;
+}
+
+body #container #container-cards #container-cards-group .card-info-yellow {
+    background-color: #eebe44;
+    width: 40%;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+body #container #container-cards #aside-nav {
+    border: #cbcac8 solid 2px;
+    border-radius: 20px;
+    box-shadow: 0px 26px 32px -9px rgba(219,219,219,1);
+    padding: 20px;
+}
+
+body #container #container-cards #aside-nav .aside-nav-title {
+    height: 15%;
+    padding-left: 20px;
+}
+
+body #container #container-cards #aside-nav #aside-nav-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+} 
+
+body #container #container-cards #aside-nav #aside-nav-cards .aside-cards {
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+body #container #container-cards #aside-nav #aside-nav-cards .aside-cards-gris {
+    background-color: #f1f2f7;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

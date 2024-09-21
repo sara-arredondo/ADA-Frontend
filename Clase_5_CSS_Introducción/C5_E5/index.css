@@ -1,0 +1,14 @@
+.leftAlign {
+    font-family: "Montserrat", system-ui;
+    text-align: left;
+}
+
+.justifyAlign {
+    font-family: "Montserrat", system-ui;
+    text-align: center;
+}
+
+.rightAlign {
+    font-family: "Montserrat", system-ui;
+    text-align: right;
+}

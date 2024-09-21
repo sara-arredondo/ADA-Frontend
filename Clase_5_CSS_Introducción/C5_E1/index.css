@@ -1,0 +1,23 @@
+#estiloTitulo {
+    font-family: "Montserrat", system-ui;
+    font-size: 120px;
+    font-weight: 800;
+}
+
+#estiloParrafoUno {
+    font-family: "Montserrat", system-ui;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+#colorUno {
+    color: #3300cc;
+}
+
+#colorDos {
+    color: #ee6a5b;
+}
+
+#colorTres {
+    color: #fed766;
+}

@@ -1,0 +1,23 @@
+body header .header {
+    width: 100%;
+    height: 200px;
+    background-color: #742bb9;
+}
+
+body header .navigation-bar {
+    width: 100%;
+    height: 50px;
+    background-color: #2b34b9;
+}
+
+body main .main {
+    width: 100%;
+    height: 700px;
+    background-color: #fafafa;
+}
+
+body footer .footer {
+    width: 100%;
+    height: 100px;
+    background-color: #e1f17a;
+}

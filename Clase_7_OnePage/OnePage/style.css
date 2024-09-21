@@ -1,0 +1,237 @@
+@font-face {
+    font-family: "Glyseric";
+    src: url('Glyseric.woff') format('woff'), /* Modern Browsers */
+         url('Glyseric.woff2') format('woff2'), /* Modern Browsers */
+         url('Glyseric.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility
+}
+
+body {
+    background-color: #dfd8ce;
+}
+
+h2 {
+    font-family: "Glyseric";
+    color: #3300cc;
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-family: "Montserrat", system-ui;
+    color: #3300cc;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-family: "Montserrat", system-ui;
+    color: #3300cc;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: "Montserrat", system-ui;
+    color: #3300cc;
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+body header .titulo-uno {
+    margin: 50px 0 0px 40px;
+    font-family: "Glyseric";
+    font-size: 120px;
+    color: #3300cc;
+    display: inline-block;
+}
+
+body header #decoracion-1 {
+    width: 80px;
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 10px;
+    }
+
+body header .menu-principal {
+    display: inline-block;
+    margin: 50px 0 10px 645px;
+}
+
+body header .menu-principal .nav-link {
+    font-family: "Montserrat", system-ui;
+    font-size: 20px;
+    color: #3300cc;
+    font-weight: 700;
+    display: inline-block;
+    margin: 30px 0 10px 30px;
+    text-decoration: none;
+}
+
+body header .menu-principal .nav-link:hover {
+    color: #ee6a5b;
+    text-decoration: none;
+}
+
+body header .contenedor-separador .decoracion-2 {
+    width: 1695px;
+    margin-left: 50px;
+    display: block;
+}
+
+main #section-hero {
+    width: 1695px;
+    height: 600px;
+    margin-left: 50px;
+}
+
+main #section-hero #card-presentacion {
+    width: 500px;
+    height: 540px;
+    padding: 30px 50px 30px 0px;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.card-boton button {
+    font-family: "Montserrat", system-ui;
+    font-size: 16px;
+    font-weight: 800;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    color:#dfd8ce;
+    background-color: #3300cc;
+    display: block;
+
+}
+main #section-hero #card-presentacion .contenedor-boton{
+    margin-top: 120px;
+}
+main #section-hero #card-presentacion .contenedor-boton .card-boton {
+    text-decoration: none;
+}
+
+main #section-hero #card-presentacion .contenedor-boton .card-boton button{
+    font-family: "Montserrat", system-ui;
+    font-size: 16px;
+    font-weight: 800;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    color:#dfd8ce;
+    background-color: #3300cc;
+    display: block;
+}
+
+.card-boton button:hover {
+    background-color: #ee6a5b;
+}
+
+main #section-hero #card-presentacion .card-boton button:hover {
+    background-color: #ee6a5b;
+}
+
+main #section-hero #decoracion3 {
+    background-image: url("./Recurso-3.png");
+    width: 1100px;
+    height: 420px;
+    display: inline-block;
+}
+
+main #branding {
+    width: 1695px;
+    height: 900px;
+    margin-left: 50px;
+}
+
+main #branding .card-proyectos {
+    width: 845px;
+    height: 800px;
+    display: inline-block;
+}
+
+main #branding .card-proyectos #proyecto-1 {
+    width: 844px; 
+}
+
+main #branding .card-proyectos figure {
+    width: 500px;
+    padding: 20px 80px 20px 20x;
+    margin-bottom: 40px;
+}
+
+main #illustration {
+    width: 1695px;
+    height: 900px;
+    margin-left: 50px;
+}
+
+main #contacto {
+    width: 1695px;
+    height: 600px;
+    margin-left: 50px;
+}
+
+main #contacto .form-title{
+    width: 600px;
+    display: inline-block;
+}
+    
+main #contacto .contenedor-form {
+    width: 500px;
+    height: 40px;
+    border-radius: 30px;
+    border: #3300cc 2px solid;
+    background-color: #dfd8ce;
+    padding-left: 10px;
+    font-family: "Montserrat", system-ui;
+    color: #3300cc;
+}
+
+main #contacto .form-title form .contenedor-boton {
+    margin-top: 50px;
+
+}
+
+main #contacto .contenedor-imagenform {
+    width: 1085px;
+    height: 450px;
+    background-image: url("./Recurso\ 6.png");
+    margin-top: 30px;
+    display: inline-block;    
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: #3300cc;   
+}
+
+footer .info-footer {
+    width: 500px;
+    height: 200px;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+
+footer .info-footer h2 {
+    color: #dfd8ce;
+    margin-top: 50px;
+}
+
+footer .info-footer ul {
+    list-style: none;
+    font-family: "Montserrat", system-ui;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.link-footer {
+    color: #dfd8ce;
+}

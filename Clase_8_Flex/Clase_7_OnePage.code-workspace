@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../Clase_7_OnePage"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../Clase_10_Ejercitación"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Clase_8_Flex"
+	}
+}

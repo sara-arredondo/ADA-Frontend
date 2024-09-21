@@ -1,0 +1,40 @@
+div {
+    width: 400px;
+    height: 350px;
+    border: 2px color black solid;
+    margin: 300px auto;
+    padding: 50px 0 0 50px;
+    background-color: #d2cfcf;
+}
+
+div #icono-1 {
+    width: 50px;
+    height: 50px;
+}
+
+div h1 {
+    font-family: "Montserrat", system-ui;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+div p {
+    width: 300px;
+    font-family: "Montserrat", system-ui;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+div p span {
+    color: blue;
+}
+
+div button {
+    font-family: "Montserrat", system-ui;
+    color: white;
+    background: linear-gradient(#69b4f5, #3f4cd5);
+    border: none;
+    border-radius: 4px;
+    width: 150px;
+    height: 50px;
+}

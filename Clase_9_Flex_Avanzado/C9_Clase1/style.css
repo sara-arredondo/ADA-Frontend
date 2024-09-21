@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+.contenedor {
+    height: 500px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex;
+    flex-wrap: wrap;
+}
+
+#primero {
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+}
+
+#segundo {
+    background-color: #e100ff;
+    height: 200px;
+    width: 200px;
+}
+
+#tercero {
+    background-color: #ff8c00;
+    height: 200px;
+    width: 200px;
+}
+
+#cuarto {
+    background-color: #62ff00;
+    height: 200px;
+    width: 200px;
+}
+
+#quinto {
+    background-color: #4931b6;
+    height: 200px;
+    width: 200px;
+}
+
+#sexto {
+    background-color: #e01b1b;
+    height: 200px;
+    width: 200px;
+}

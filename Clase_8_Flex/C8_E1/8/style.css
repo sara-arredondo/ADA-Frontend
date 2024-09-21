@@ -1,0 +1,32 @@
+body header {
+    width: 100%;
+    height: 200px;
+    background-color: #742bb9;
+}
+
+body .navigation-bar {
+    width: 100%;
+    height: 50px;
+    background-color: #2b34b9;
+}
+
+body div {
+    display: flex;
+    height: 650px;
+}
+
+body div main {
+    width: 70%;
+    background-color: #fafafa;    
+}
+
+body div .right-panel {
+    width: 30%;
+    background-color: #ff8000;
+}
+
+body footer {
+    width: 100%;
+    height: 100px;
+    background-color: #e1f17a;
+}

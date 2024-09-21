@@ -1,0 +1,18 @@
+#bienvenida {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+#despedida {
+    width: 250px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0 20 0 200;
+    padding-right: 100px;
+    display: inline-block;
+}
+/*margin: 0 auto; */

@@ -1,0 +1,22 @@
+#backgroundStyle {
+    background-color: #020202;
+}
+
+#estiloTitulo {
+    font-family: "Montserrat", system-ui;
+    font-size: 120px;
+    font-weight: 800;
+    color: #dfd8ce;
+}
+
+#estiloParrafoUno {
+    font-family: "Montserrat", system-ui;
+    font-size: 48px;
+    font-weight: 400;
+    color: #dfd8ce;
+}
+
+.colorDos {
+    color: #ee6a5b;
+}
+

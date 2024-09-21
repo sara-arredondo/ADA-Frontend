@@ -1,0 +1,23 @@
+h1 {
+    background-color: orange;
+    height: 150px;
+    width: 300px;
+    color: aquamarine;
+    font-size: 150px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    background-color: blue;
+}
+p {
+    background-color: blueviolet;
+}
+#texto1 {
+    background-color: pink;
+}
+.estilo1 {
+    background-color: #00FF00;
+}

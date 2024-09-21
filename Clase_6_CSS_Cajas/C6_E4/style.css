@@ -1,0 +1,24 @@
+body div {
+    width: 500px;
+    height: 30px;
+    display: block;
+    margin: 0px 0px 30px 30px;
+
+}
+
+body div .barras {
+    width: 500px;
+    height: 30px;
+    margin: 0px 0px 30px 30px;
+    display: block;
+    background-color: #f8e56c;
+    border-radius: 100px;
+    padding: 3px;
+}
+
+body div #progreso10 {
+    width: 20px;
+    height: 24px;
+    background-color: black;
+    display: block;
+}

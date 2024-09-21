@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+.contenedor {
+    height: 500px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex;
+}
+
+#primero {
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+}
+
+#segundo {
+    background-color: #e100ff;
+    height: 200px;
+    width: 200px;
+}
+
+#tercero {
+    background-color: #ff8c00;
+    height: 200px;
+    width: 200px;
+}

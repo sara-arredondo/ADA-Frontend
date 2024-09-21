@@ -1,0 +1,80 @@
+body main .bandera-argentina {
+    width: 300px;
+    height: 200px;
+    margin: 30px auto;
+    display: block;
+
+}
+
+body main .bandera-argentina .franja-celeste {
+    height: 66.66px;
+    margin: 0 auto;
+    background-color: #77aade;    
+}
+
+body main .bandera-argentina .franja-blanca {
+    height: 66.66px;
+    margin: 0 auto;
+    background-color: #e3e3e3;    
+}
+
+body main .bandera-colombia {
+    height: 200px;
+    margin: 30px auto;
+    display: block;
+}
+
+body main .bandera-colombia .franja-amarilla {
+    width: 300px;
+    height: 80px;
+    margin: 0 auto;
+    background-color: #ffcd00;
+    display: block;
+}
+
+body main .bandera-colombia .franja-azul {
+    width: 300px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #003087;
+    display: block;
+}
+
+body main .bandera-colombia .franja-roja {
+    width: 300px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #c7102f;
+    display: block;
+}
+
+body main .bandera-chile {
+    width: 300px;
+    height: 200px;
+    margin: 30px auto;
+    display: block;
+}
+
+body main .bandera-chile .franja-azulchile {
+    width: 99px;
+    height: 100px;
+    margin: 0 0px;
+    background-color: #0138a5;
+    display: inline-block;
+}
+
+body main .bandera-chile .franja-blancachile {
+    width: 197px;
+    height: 100px;
+    background-color: rgb(233, 229, 236);
+    margin: 0 0;
+    display: inline-block;
+}
+
+body main .bandera-chile .franja-rojachile {
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #930606;
+    display: block;
+}

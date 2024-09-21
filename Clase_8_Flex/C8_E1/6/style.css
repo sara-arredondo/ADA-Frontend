@@ -1,0 +1,30 @@
+body {
+    display: flex;
+}
+
+body .rigth-panel {
+    width: 30%;
+    height: 1000px;
+    background-color: #ff8000;
+}
+
+body div {
+    width: 70%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+body div header {
+    height: 200px;
+    background-color: #742bb9;
+}
+
+body div main { 
+    height: 700px;
+    background-color: #fafafa;    
+}
+
+body div footer {
+    height: 100px;
+    background-color: #e1f17a;
+}
