@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body .card-producto {
+    width: 1100px;
+    height: 600px;
+    background-color: #4fb2f4;
+    border-radius: 20px;
+    display: flex;
+}
+
+body .card-producto .contenedor-img {
+    width: 40%;
+    background-color: blue;
+}
+
+body .card-producto .info-producto {
+    width: 60%;
+    background-color: beige;
+}

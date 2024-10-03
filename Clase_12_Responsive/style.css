@@ -1,0 +1,17 @@
+main {
+    height: 800px;
+    width: 800px;
+    background-color: brown;
+}
+
+.caja1 {
+    height: 5rem;
+    width: 5rem;
+    background-color: aqua;
+}
+
+.caja2 {
+    height: 50%;
+    width: 50%;
+    background-color: blueviolet;
+}

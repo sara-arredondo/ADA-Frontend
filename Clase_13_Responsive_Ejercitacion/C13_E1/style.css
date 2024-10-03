@@ -1,0 +1,32 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: brown;
+}
+
+ body div .texto-saludo {
+    font-family: "Montserrat", system-ui;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+@media (max-width: 600px) {
+
+body {
+    background-color: rgb(255, 234, 0);
+}    
+
+body div .texto-saludo {
+    font-size: 24px;
+    
+}
+}
+
+@media (min-width: 601px) and (max-width:900px) {
+
+body {
+    background-color: rgb(0, 179, 255);
+    font-size: 32px;
+}
+}

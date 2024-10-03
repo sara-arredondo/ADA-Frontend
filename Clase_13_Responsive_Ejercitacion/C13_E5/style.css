@@ -1,0 +1,141 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body .card-producto {
+    width: 1100px;
+    height: 610px;
+    background-color: #0b1f2c;
+    border-radius: 20px;
+    box-shadow: 0px 0px 18px -3px rgba(61,61,61,1);
+    display: flex;
+}
+
+body .card-producto .contenedor-img {
+    width: 45%;
+    background-color: #cb2040;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 312px;
+}
+
+body .card-producto .info-producto {
+    width: 55%;
+    padding: 45px;
+}
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #ffffff;
+    width: 80%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 0px;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+body .card-producto .info-producto div {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+button {
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    color: #ffffff;
+    background-color: transparent;
+    height: 30px;
+    border: 1px solid #cb2040;
+    border-radius: 15px;
+    padding: 0 15px 0 15px;
+}
+
+.boton-comprar {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #cb2040;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    padding: 0 15px 0 15px;
+}
+
+@media (max-width: 1099px) {
+
+    body .card-producto {
+        width: 500px;
+        height: 910px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    body .card-producto .contenedor-img {
+        width: 100%;
+        height: 35%;
+        border-radius: 20px 20px 0 0;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    body .card-producto .info-producto {
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1, h2, h3, p {
+        text-align: center;
+        width: 100%;
+    }
+
+    h1 {
+        margin-top: 30px;
+    }
+
+    body .card-producto .info-producto div {
+        width: 60%;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+}
