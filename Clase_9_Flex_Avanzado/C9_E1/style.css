@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.uno {
+    display: flex;
+    margin-top: 30px;
+
+}
+.w-250 {
+    width: 250px;
+    height: 300px;
+    background-color: aquamarine;
+}
+
+.w-v-uno {
+    flex-grow: 1;
+    background-color: lightpink;
+}
+
+.w-200 {
+    width: 200px;
+    height: 300px;
+    background-color: lightcoral;
+}
+
+.w-v-dos {
+    flex-grow: 1;
+    background-color: beige;
+    border: 1px solid black;
+}
+
+.tercio {
+    flex-grow: 1;
+    height: 300px;
+    background-color: lightseagreen;
+    border: 1px solid black;
+}
+
+.mitad {
+    flex-grow: 0.5;
+    height: 300px;
+    background-color: lightcoral;
+}
+
+.cuarto {
+    flex-grow: 0.25;
+    height: 300px;
+    background-color: rgb(198, 24, 24);
+    border: 1px solid black;
+}
+
+.veinte {
+    flex-grow: 0.20;
+    height: 300px;
+    background-color: rgb(24, 134, 198);
+    border: 1px solid black;
+}
+
+.sesenta {
+    flex-grow: 1;
+    height: 300px;
+    background-color: rgb(188, 232, 100);
+    border: 1px solid black;
+}

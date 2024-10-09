@@ -1,0 +1,53 @@
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 150px;
+    background-color: lightcoral;
+}
+
+nav {
+    height: 80px;
+    background-color: lightblue;
+}
+
+.main-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    height: 700px;
+}
+
+main {
+    flex-grow: 0.7;
+    background-color: aquamarine;
+}
+
+aside {
+    flex-grow: 0.3;
+    background-color: rgb(32, 159, 117);
+}
+
+footer {
+    height: 80px;
+    background-color: lightblue;
+}
+
+@media (max-width: 500px) {
+    
+    .main-contenedor {
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+    }
+
+    main {
+        height: 700px;
+    }
+
+    aside {
+        height: 200px;
+    }
+}
